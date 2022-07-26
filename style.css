@@ -123,13 +123,18 @@ p{
         margin-left: auto;
         margin-right: auto;
     }
-    input.inp , button#btn{
+    input.inp {
         width: 65vw;
         margin-left: auto;
         margin-right: auto;
     }
-    button.site{
+    button.site {
         width: 70vw;
+    }
+    button#btn{
+        width: 75vw;
+        margin-left: auto;
+        margin-right: auto;
     }
     .form{
         margin-left:  auto;
