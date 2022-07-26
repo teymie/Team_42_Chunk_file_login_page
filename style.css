@@ -132,7 +132,7 @@ p{
         width: 70vw;
     }
     button#btn{
-        width: 75vw;
+        width: 70vw;
         margin-left: auto;
         margin-right: auto;
     }
@@ -159,5 +159,10 @@ p{
     .picture{
         margin-left: auto;
         margin-right: auto;
+    }
+}
+@media only screen and (max-width: 600px) {
+    button#btn {
+        width: 75vw;
     }
 }
