@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+
+}
+body{
+    font-family: "Manrope";
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 7rem;
+  
+}
+#login-title{
+    text-align: center;
+}
+.picture{
+    margin: auto 0;
+}
+.inp{
+    width: 400px;
+    padding: 1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 0.4rem;
+    border: solid 1px grey;
+}
+.inp:hover{
+    border: solid 1px grey;
+}
+.inp:active{
+    border: solid 2px grey;
+}
+.saved{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.7rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+a:hover{
+   color:#080FC9 ; 
+}
+label{
+    font-size: small;
+}
+#btn{
+    width: 440px;
+    background-color:#080FC9;
+    border: solid 1px#080FC9;
+    border-radius: 0.4rem;
+    padding: 16px 32px;
+    margin-top: 2rem;
+    color: white;
+    font-weight: 200px; 
+}
+#btn:hover{
+    background-color: #2068BD;
+}
+.or-style{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.line{
+    background-color: gray;
+    height: 1px;
+    width: 190px;
+    margin-top: 0.7rem;
+}
+#login1{
+    font-weight: 600;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+#login2{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0.8rem;
+}
+.btns{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.site{
+    margin: 0.4rem auto;
+    width: 440px;
+    padding: 0.7rem;
+    background-color: white;
+    border-radius: 0.4rem;
+    border: solid 1px grey;
+}
+p{
+    font-size: small;
+}
+#signup{
+    color:#080FC9;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+#google{
+    margin-top: 0.3rem;
+}
+#github{
+    margin-top: 0.5rem;
+}
